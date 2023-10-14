@@ -7,4 +7,9 @@
     background-repeat: no-repeat;
     margin-top: 30px;
     margin-left: 323.4px;
+    transition: all .3s ease;
+}
+
+.header__search:hover {
+    background-image: url(../../../images/searchBtnHover.svg);
 }
