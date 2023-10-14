@@ -1,0 +1,8 @@
+.header__logo {
+    margin-top: 24px;
+    transition: all .3s ease;
+}
+
+.header__logo:hover {
+    fill: #E07A7A
+}

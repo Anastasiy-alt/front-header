@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: calc(100% - 420px);
+    height: 80px;
+    background-color: #FFF;
+    padding-left: 210px;
+    padding-right: 210px;
+}

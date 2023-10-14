@@ -1,0 +1,29 @@
+@keyframes menuAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.menu {
+    margin-right: 30.05px;
+    margin-top: 20px;
+    background-image: url(../../images/burger.svg);
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+}
+
+.menu:hover {
+    background-image: url(../../images/arrowDown.svg);
+    animation: menuAnimation 0.3s forwards;
+}

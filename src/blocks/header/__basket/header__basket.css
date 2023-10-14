@@ -1,0 +1,11 @@
+.header__basket {
+    background-image: url(../../../images/basket.svg);
+    width: 25.017px;
+    height: 25px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-left: 28.74px;
+    margin-top: 30px;
+}
