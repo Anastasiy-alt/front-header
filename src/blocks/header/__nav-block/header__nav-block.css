@@ -1,0 +1,8 @@
+.header__nav-block {
+    overflow: hidden;
+    margin-top: 29px;
+    margin-left: 28.32px;
+    width: 1267px;
+    display: flex;
+    flex-direction: column;
+}

@@ -5,9 +5,10 @@
     background-size: contain;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    margin-top: 30px;
-    margin-left: 323.4px;
     transition: all .3s ease;
+    position: absolute;
+    top: 30px;
+    right: 264px;
 }
 
 .header__search:hover {

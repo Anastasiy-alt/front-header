@@ -1,0 +1,13 @@
+.header__nav-block_anim_close {
+    animation: close 1s forwards;
+}
+
+@keyframes close {
+    from {
+        margin-top: 29px;
+    }
+
+    to {
+        margin-top: -29px;
+    }
+}

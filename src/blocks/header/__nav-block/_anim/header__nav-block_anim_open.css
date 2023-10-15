@@ -1,0 +1,13 @@
+.header__nav-block_anim_open {
+    animation: open 1s forwards;
+}
+
+@keyframes open {
+    from {
+        margin-top: -29px;
+    }
+
+    to {
+        margin-top: 29px;
+    }
+}

@@ -10,3 +10,9 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__basket/header__basket.css);
 @import url(../blocks/header/__search/header__search.css);
+@import url(../blocks/header/__nav-block/header__nav-block.css);
+@import url(../blocks/header/__nav-block/_anim/header__nav-block_anim_close.css);
+@import url(../blocks/header/__nav-block/_anim/header__nav-block_anim_open.css);
+@import url(../blocks/header/__form/header__form.css);
+@import url(../blocks/header/__input/header__input.css);
+@import url(../blocks/header/__deco/header__deco.css);
