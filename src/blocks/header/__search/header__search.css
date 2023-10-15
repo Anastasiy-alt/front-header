@@ -8,9 +8,49 @@
     transition: all .3s ease;
     position: absolute;
     top: 30px;
-    right: 264px;
+    right: calc(53.74px + max(210px, calc(210 / 1920 * 100vw)));
 }
 
 .header__search:hover {
     background-image: url(../../../images/searchBtnHover.svg);
+}
+
+@media screen and (max-width: 1600px) {
+    .header__search {
+        top: 29px;
+        right: calc(53.74px + min(250px, calc(250 / 1600 * 100vw)));
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header__search {
+        right: calc(53.74px + min(110px, calc(110 / 1200 * 100vw)));
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header__search {
+        top: 27px;
+        right: 199.75px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__search {
+        right: calc(53.74px + min(144px, calc(144 / 768 * 100vw)));
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .header__search {
+        top: 12px;
+        right: calc(53.74px + min(96px, calc(96 / 512 * 100vw)));
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header__search {
+        top: 12px;
+        right: calc(53.74px + min(20px, calc(20 / 360 * 100vw)));
+    }
 }

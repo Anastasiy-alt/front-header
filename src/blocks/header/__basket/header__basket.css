@@ -14,3 +14,21 @@
 .header__basket:hover {
     background-image: url(../../../images/basketHover.svg);
 }
+
+@media screen and (max-width: 1600px) {
+    .header__basket {
+        margin-top: 29px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header__basket {
+        margin-top: 27px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .header__basket {
+        margin-top: 12px;
+    }
+}

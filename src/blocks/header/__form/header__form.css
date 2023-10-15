@@ -2,5 +2,11 @@
     margin-top: 32px;
     height: 30px;
     width: 100%;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width: 992px) {
+    .header__form{
+        margin-top: 44px;
+    }
 }

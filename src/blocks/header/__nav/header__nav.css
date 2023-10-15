@@ -1,8 +1,21 @@
 .header__nav {
+    width: calc(100% - 25.3px);
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: row;
-    column-gap: 45.72px;
-    margin-left: 273px;
+    column-gap: min(45.72px, calc(100vw * 0.0238125));
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .header__nav {
+        column-gap: min(30px, calc(100vw * 0.015625));
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header__nav {
+        display: none;
+    }
 }
