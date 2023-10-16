@@ -31,7 +31,8 @@
 @media screen and (max-width: 992px) {
     .header__search {
         top: 27px;
-        right: calc(53.74px + min(146px, calc(146 / 992 * 100vw)));;
+        right: calc(53.74px + min(146px, calc(146 / 992 * 100vw)));
+        ;
     }
 }
 
