@@ -1,0 +1,13 @@
+.menu__main-item-button {
+    margin-left: 21px;
+    width: 14px;
+    height: 24px;
+    margin-bottom: 4px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url(../../../images/arrowRight.svg);
+}
+
+.menu__main-item-button:hover {
+    background-image: url(../../../images/arrowRightHover.svg);
+}

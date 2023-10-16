@@ -5,6 +5,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__button/menu__button.css);
 @import url(../blocks/header/__nav-item/header__nav-item.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -16,3 +17,10 @@
 @import url(../blocks/header/__form/header__form.css);
 @import url(../blocks/header/__input/header__input.css);
 @import url(../blocks/header/__deco/header__deco.css);
+@import url(../blocks/menu/__button/_type/menu__button_type_open.css);
+@import url(../blocks/menu/__nav/menu__nav.css);
+@import url(../blocks/menu/__main-item-button/menu__main-item-button.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__item/_type/menu__item_type_link.css);
+@import url(../blocks/menu/__list/_type/menu__list_type_border.css);

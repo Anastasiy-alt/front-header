@@ -1,0 +1,32 @@
+.menu__item {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    width: fit-content;
+    position: relative;
+}
+
+.menu__item:hover .menu__main-item-button {
+    background-image: url(../../../images/arrowRightHover.svg);
+}
+
+
+
+
+/* 
+.menu__item:nth-child(3)::before {
+    display: none;
+}
+
+.menu__item:nth-child(4)::before {
+    display: none;
+} */

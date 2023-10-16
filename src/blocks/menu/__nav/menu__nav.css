@@ -1,0 +1,13 @@
+.menu__nav {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100vw;
+    padding-top: 40px;
+    padding-left: max(210px, calc(210 / 1920 * 100vw));
+    padding-bottom: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    column-gap: 148px;
+}

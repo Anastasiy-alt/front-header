@@ -1,0 +1,8 @@
+.menu__button_type_open {
+    background-image: url(../../../../images/closeBtn.svg);
+}
+
+.menu__button_type_open:hover {
+    background-image: url(../../../../images/closeBtn.svg);
+    animation: none;
+}
