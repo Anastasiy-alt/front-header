@@ -2,6 +2,12 @@
     animation: close 1s forwards;
 }
 
+@media screen and (max-width: 992px) {
+    .header__nav-block_anim_close {
+        animation: closeSmallScreen 1s forwards;
+    }
+}
+
 @keyframes close {
     from {
         margin-top: 29px;
@@ -9,5 +15,15 @@
 
     to {
         margin-top: -29px;
+    }
+}
+
+@keyframes closeSmallScreen {
+    from {
+        margin-top: 29px;
+    }
+
+    to {
+        margin-top: -20px;
     }
 }
