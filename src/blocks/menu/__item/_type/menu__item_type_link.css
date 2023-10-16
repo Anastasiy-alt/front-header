@@ -18,3 +18,17 @@
     opacity: 0;
     transition: all 0.4s ease;
 }
+
+@media screen and (max-width: 992px) {
+    .menu__item_type_link {
+        width: fit-content;
+    }
+
+    .menu__item_type_link::before {
+        height: 23px;
+    }
+
+    .menu__item_type_link:hover::before {
+        transform: translate(0, 23px);
+    }
+}

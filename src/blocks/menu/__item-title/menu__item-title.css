@@ -1,0 +1,5 @@
+@media screen and (max-width: 992px) {
+    .menu__item-title {
+        grid-area: title;
+    }
+}

@@ -7,3 +7,9 @@
     row-gap: 20px;
     width: 331px;
 }
+
+@media screen and (max-width: 992px) {
+    .menu__list {
+        width: 100%;
+    }
+}

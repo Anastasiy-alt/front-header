@@ -1,0 +1,13 @@
+@media screen and (max-width: 992px) {
+    .menu__item_type_button {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(23px, auto);
+        grid-template-areas:
+            "title button"
+            "list list";
+        justify-items: start;
+        align-items: start;
+    }
+}

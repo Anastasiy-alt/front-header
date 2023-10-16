@@ -14,19 +14,66 @@
             <button class="menu__button button"></button>
             <nav class="menu__nav">
                 <ul class="menu__list menu__list_type_border">
-                    <li class="menu__item menu__item_type_link">
-                        <a class="link" href="">Пункт в меню</a>
+                    <li class="menu__item menu__item_type_link menu__item_type_main">
+                        <a class="link" href="">Новости</a>
+                    </li>
+                    <li class="menu__item menu__item_type_link menu__item_type_main">
+                        <a class="link" href="">Мероприятия</a>
+                    </li>
+                    <li class="menu__item menu__item_type_link menu__item_type_main">
+                        <a class="link" href="">Сериалы</a>
+                    </li>
+                    <li class="menu__item menu__item_type_link menu__item_type_main">
+                        <a class="link" href="">Озвучка</a>
+                    </li>
+                    <li class="menu__item menu__item_type_link menu__item_type_main">
+                        <a class="link" href="">Субтитры</a>
                     </li>
                     <li class="menu__item menu__item_type_link">
                         <a class="link" href="">Пункт в меню</a>
                     </li>
-                    <li class="menu__item">
-                        <button class="button">Пункт в меню</button>
-                        <button class="menu__main-item-button button"></button>
+                    <li class="menu__item menu__item_type_link">
+                        <a class="link" href="">Пункт в меню</a>
                     </li>
-                    <li class="menu__item">
-                        <button class="button">Пункт в меню</button>
-                        <button class="menu__main-item-button button"></button>
+                    <li class="menu__item menu__item_type_button" id="first">
+                        <button class="button menu__item-title">Пункт в меню</button>
+                        <button class="menu__item-button button" id="arrow-button-first"></button>
+                        <div class="menu__list_type_mobile">
+                            <ul class="menu__list menu__list-item" id="first-list-mob">
+                                <li class="menu__item  menu__item_type_link">
+                                    <a class="link" href="">Пункт в меню</a>
+                                </li>
+                                <li class="menu__item menu__item_type_link">
+                                    <a class="link" href="">Пункт в меню</a>
+                                </li>
+                                <li class="menu__item menu__item_type_link">
+                                    <a class="link" href="">Пункт в меню</a>
+                                </li>
+                                <li class="menu__item menu__item_type_link">
+                                    <a class="link" href="">Пункт в меню</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu__item menu__item_type_button" id="second">
+                        <button class="button menu__item-title">Пункт в меню</button>
+                        <button class="menu__item-button button" id="arrow-button-second"></button>
+                        <div class="menu__list_type_mobile">
+                            <ul class="menu__list menu__list-item" id="second-list-mob">
+                                <li class="menu__item  menu__item_type_link">
+                                    <a class="link" href="">Пункт в меню *</a>
+                                </li>
+                                <li class="menu__item menu__item_type_link">
+                                    <a class="link" href="">Пункт в меню *</a>
+                                </li>
+                                <li class="menu__item menu__item_type_link">
+                                    <a class="link" href="">Пункт в меню *</a>
+                                </li>
+                                <li class="menu__item menu__item_type_link">
+                                    <a class="link" href="">Пункт в меню *</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="menu__item menu__item_type_link">
                         <a class="link" href="">Пункт в меню</a>
@@ -35,20 +82,37 @@
                         <a class="link" href="">Пункт в меню</a>
                     </li>
                 </ul>
-                <ul class="menu__list">
-                    <li class="menu__item  menu__item_type_link">
-                        <a class="link" href="">Пункт в меню</a>
-                    </li>
-                    <li class="menu__item menu__item_type_link">
-                        <a class="link" href="">Пункт в меню</a>
-                    </li>
-                    <li class="menu__item menu__item_type_link">
-                        <a class="link" href="">Пункт в меню</a>
-                    </li>
-                    <li class="menu__item menu__item_type_link">
-                        <a class="link" href="">Пункт в меню</a>
-                    </li>
-                </ul>
+
+                <div class="menu__list_type_desktop">
+                    <ul class="menu__list menu__list-item" id="first-list">
+                        <li class="menu__item  menu__item_type_link">
+                            <a class="link" href="">Пункт в меню</a>
+                        </li>
+                        <li class="menu__item menu__item_type_link">
+                            <a class="link" href="">Пункт в меню</a>
+                        </li>
+                        <li class="menu__item menu__item_type_link">
+                            <a class="link" href="">Пункт в меню</a>
+                        </li>
+                        <li class="menu__item menu__item_type_link">
+                            <a class="link" href="">Пункт в меню</a>
+                        </li>
+                    </ul>
+                    <ul class="menu__list menu__list-item" id="second-list">
+                        <li class="menu__item  menu__item_type_link">
+                            <a class="link" href="">Пункт в меню *</a>
+                        </li>
+                        <li class="menu__item menu__item_type_link">
+                            <a class="link" href="">Пункт в меню *</a>
+                        </li>
+                        <li class="menu__item menu__item_type_link">
+                            <a class="link" href="">Пункт в меню *</a>
+                        </li>
+                        <li class="menu__item menu__item_type_link">
+                            <a class="link" href="">Пункт в меню *</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </article>
         <svg class="header__logo" width="81" height="37" viewBox="0 0 81 37" xmlns="http://www.w3.org/2000/svg">
@@ -80,8 +144,6 @@
             </form>
 
         </nav>
-
-
         <button class="header__basket button"></button>
     </header>
     <script src="./pages/index.js"></script>

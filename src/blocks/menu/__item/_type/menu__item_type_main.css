@@ -1,0 +1,9 @@
+.menu__item_type_main {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .menu__item_type_main {
+        display: flex;
+    }
+}

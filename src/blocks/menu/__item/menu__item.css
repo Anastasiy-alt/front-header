@@ -19,14 +19,12 @@
     background-image: url(../../../images/arrowRightHover.svg);
 }
 
+@media screen and (max-width: 992px) {
+    .menu__item {
+        font-size: 20px;
+    }
 
-
-
-/* 
-.menu__item:nth-child(3)::before {
-    display: none;
+    .menu__item:hover .menu__main-item-button {
+        background-image: url(../../../images/arrowDownSHover.svg);
+    }
 }
-
-.menu__item:nth-child(4)::before {
-    display: none;
-} */
