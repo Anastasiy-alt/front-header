@@ -1,5 +1,7 @@
 .page {
     background-color: #E6E6E6;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 /* *,*::before,*::after {outline: 1px solid red} */
