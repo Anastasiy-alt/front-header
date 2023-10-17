@@ -1,5 +1,5 @@
 @media screen and (max-width: 992px) {
-    .menu__list_type_desktop {
+    .menu__desktop {
         display: none;
     }
 }

@@ -1,9 +1,9 @@
-.menu__list_type_mobile {
+.menu__mobile {
     display: none;
 }
 
 @media screen and (max-width: 992px) {
-    .menu__list_type_mobile {
+    .menu__mobile {
         display: flex;
         grid-area: list;
     }
